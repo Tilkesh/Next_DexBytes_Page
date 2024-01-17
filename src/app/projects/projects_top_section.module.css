@@ -1,0 +1,39 @@
+.sectionProjects{
+    background: #F3FBFF;
+}
+.projectsectionWr{
+    padding: 175px 25px 100px;
+}
+.sectionWrapper{
+    max-width: 1320px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+.innerLeftRightMargin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.projectsH1Text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0px;
+}
+.projectsPtext1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 440px;
+    margin: 40px 0px 0px 0px;
+}
+.sectionLeftBox{
+    flex: 0 0 50%;
+}

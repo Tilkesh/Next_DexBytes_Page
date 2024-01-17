@@ -1,0 +1,122 @@
+.innerLeftRightMargin{
+    margin: 0px 25px 0px 25px;
+  }
+
+.homefeaturedproject{
+    background: #fff;
+}
+
+.homefeaturedprojectWr{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.h3text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -2.88px;
+    margin: 0px;
+}
+
+.hfpInnerhadingSec{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 60px 0px;
+}
+
+.projectBoxPopUp{
+    border-radius: 20px;
+    background: #077FC8;
+    opacity: 0;
+    transition: ease-in-out 0.6s all;
+}
+
+.popUpShow{
+    display: block;
+}
+
+.projectBoxPopUp a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    padding: 20px;
+}
+
+.projectBoxPopUpText h5{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0px;
+}
+
+.projectBoxPopUpText p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.54px;
+    width: 186px;
+    margin: 28px 0px 0px 0px;
+}
+
+.projectBoxPopUpArrow{
+    display: flex;
+    align-items: center;
+}
+
+.innerHPImage{
+    position: relative;
+    width: 100%;
+}
+
+.innerHPImage img{
+    width: -webkit-fill-available;
+    padding: 26px;
+}
+
+
+.innerHomeProjectBoxWr{
+    position: relative;
+    width: 50%;
+}
+
+.popUpRight{
+    position: absolute;
+    top: -20px;
+    left: 190px;
+    z-index: 1;
+    transition: ease-in-out 0.3s all;
+}
+
+.homeProjectBoxWr{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popUpRightDown{
+    position: absolute;
+    bottom: -16px;
+    left: 190px;
+    z-index: 1;
+    transition: ease-in-out 0.3s all;
+}
+
+.projectsCardWr{
+    margin-bottom: 100px;
+}
+.innerHomeProjectBoxWr:hover .popUpRight, .innerHomeProjectBoxWr:hover .popUpRightDown {
+    opacity: 1;
+    transition: ease-in-out 0.6s all;
+    
+}
+

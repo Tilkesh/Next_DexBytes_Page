@@ -1,0 +1,88 @@
+.homeOurClientWr{
+    background-color: #F3FBFF;
+}
+.wrapper{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.innerWrapper{
+    padding: 0 25px;
+}
+
+.h3TextClients{
+    color: #000;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -2.16px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0px;
+}
+
+.clientslogoImg{
+
+}
+
+.clientsLogoWr{
+   margin-bottom: 60px;
+}
+
+.clientsLogoRow{
+    width: 70%;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.joinTogetherBtnWr{
+    display: flex;
+    justify-content: center;
+}
+
+.joinTogetherBtn{
+    width: 226px;
+    height: 50px;
+    background-color: #077FC8;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    padding-right: 26px;
+}
+
+.joinTogetherBtn:hover{
+    background: #0064a2;
+    transition: ease-in-out 0.2s all;
+}
+
+.joinTogetherBtn::after{
+    content: "";
+    width: 18px;
+    height: 16px;
+    background: url(/assets/images/arrow_white_right_sm.svg);
+    left: 192px;
+    position: absolute;
+    transition: ease-in-out 0.4s all;
+}
+
+.joinTogetherBtn:hover:after{
+    left: 198px;
+    transition: ease-in-out 0.4s all;
+}
+
