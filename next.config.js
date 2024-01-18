@@ -9,8 +9,10 @@
 
 const nextConfig = {
     output: 'export',
-    assetPrefix: process.env.ASSET_PREFIX,
-    basePath: process.env.BASE_PATH,
-  };
+    distDir: 'dist',
+    images: {
+      unoptimized: true,
+    },
+};
   
   module.exports = nextConfig;
