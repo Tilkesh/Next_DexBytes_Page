@@ -72,13 +72,13 @@
 }
 
 .joinourTeamLink:hover:after{
-  background: url(/assets/images/arrow_right_blue.svg);
+  background: url(./assets/images/arrow_right_blue.svg);
   transition: ease-in-out 0.2s all;
 }
 
 .joinourTeamLink::after{
     content: " ";
-    background: url(/assets/images/arrow_right.svg);
+    background: url(./assets/images/arrow_right.svg);
     background-size: cover;
     position: absolute;
     width: 16.875px;
@@ -142,7 +142,7 @@
 
 .getYourProjectLink::after{
     content: " ";
-    background: url(/assets/images/arrow_right_white.svg);
+    background: url(./assets/images/arrow_right_white.svg);
     background-size: cover;
     position: absolute;
     width: 24px;
